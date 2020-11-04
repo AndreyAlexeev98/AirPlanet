@@ -656,7 +656,7 @@ text-transform: uppercase;
   content: "";
   display: inline-block;
   vertical-align: middle;
-  background-image: url(images/button_icon_white.png);
+  background-image: url(../img/icons/button_icon_white.png);
   width: 15px;
   height: 14px;
   padding-right: 20px;
@@ -665,7 +665,7 @@ text-transform: uppercase;
 
 .button:hover:after {
   content: "";
-  background-image: url(images/button_icon_hover.png);
+  background-image: url(../img/icons/button_icon_hover.png);
   transition: all 1s;
 }
 
