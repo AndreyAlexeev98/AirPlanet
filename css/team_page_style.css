@@ -170,7 +170,7 @@ color: #ced5e8;
  
  /* sidebar*/
  
- .sidebar {
+ .menu {
    width: 174px;
    margin-top: 45px;
  }
@@ -350,7 +350,7 @@ color: #ced5e8;
    flex-wrap: wrap;
    align-items: center;
    text-align: center;
-   width: calc (100% / 3 - 40px);
+   width: calc(100% / 3 - 40px);
 }
  
  .content-list__item:nth-child(3) {

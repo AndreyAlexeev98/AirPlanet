@@ -32,27 +32,25 @@
                 </div> 
             </header>
             <div class="container container--main">
-                <sidebar class="sidebar">
-                    <div class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="./main_page.html" class="menu__link menu__link--main"> 
-                                    <span class= "menu__link--main--element">Главная</span>
-                                </a>    
-                            </li>
-                            <li class="menu__item menu__item--active">
-                                <a href="./comments_page.html" class="menu__link menu__link--feed"> 
-                                    <span class="menu__link--feed--element">Отзывы</span>
-                                </a>    
-                            </li>
-                            <li class="menu__item">
-                                <a href="team_page.html" class="menu__link menu__link--crew"> 
-                                    <span class="menu__link--crew--element">Экипаж</span>
-                                </a>    
-                            </li>   
-                        </ul>
-                    </div>
-                </sidebar>
+                <aside class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="./main_page.html" class="menu__link menu__link--main"> 
+                                <span class= "menu__link--main--element">Главная</span>
+                            </a>    
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="./comments_page.html" class="menu__link menu__link--feed"> 
+                                <span class="menu__link--feed--element">Отзывы</span>
+                            </a>    
+                        </li>
+                        <li class="menu__item">
+                            <a href="team_page.html" class="menu__link menu__link--crew"> 
+                                <span class="menu__link--crew--element">Экипаж</span>
+                            </a>    
+                        </li>   
+                    </ul>
+                </aside>
                 <main class="main">
                     <div class="breadcrumbs">
                         <ul class="breadcrumbs__list">
@@ -154,7 +152,7 @@
                 </div>
             </div>  
         </div> 
-        <form action="" class="form">
+        <form action="#" class="form">
             <div class="form__wrapper">
                 <div class="form__title">Оставить отзыв</div>
                 <div class="form__content">
@@ -171,7 +169,7 @@
                     <div class="form__row form__row--textarea">
                         <div class="form__col">
                             <span class="form__subtitle">Текст отзыва</span>
-                            <textarea type="text" placeholder="Мне понравилось" class="form__textarea form__input"></textarea> 
+                            <textarea placeholder="Мне понравилось" class="form__textarea form__input"></textarea> 
                         </div>
                     </div>
                     <div class="form__row">
@@ -179,12 +177,12 @@
                             <div class="form__subtitle">Отображать фото в отзыве?</div>
                             <div class="form__radios">
                                 <label class="form__radios--label">
-                                    <input type="radio" class="form__radio" name="input" checked></input>
+                                    <input type="radio" class="form__radio" name="input" checked />
                                     <div class="form__radio-button"></div>
                                     <span class="form__subtitle">Да</span>
                                 </label>
                                 <label class="form__radios--label">
-                                    <input type="radio" class="form__radio" name="input"></input>
+                                    <input type="radio" class="form__radio" name="input"/>
                                     <div class="form__radio-button"></div>
                                     <span class="form__subtitle">Нет</span>
                                 </label>
